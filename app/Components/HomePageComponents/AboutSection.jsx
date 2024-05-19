@@ -6,8 +6,8 @@ const AboutSection = () => {
     backgroundImage: `url('${heroImage}')`,
   };
   return (
-    <div className="px-10  py-40 w-full bg-[#C0DFE7] flex items-center justify-center">
-      <div className="grid grid-cols-5 gap-10">
+    <div className="px-10 py-20 w-full bg-[#C0DFE7] flex items-center justify-center">
+      <div className="flex flex-col sm:grid grid-cols-1 sm:grid-cols-5 gap-10">
         <div className="col-span-3 px-2 text-black max-w-xl">
           <h1 className="text-2xl font-semibold mb-8">
             WELCOME TO COLLEGE OF APPLIED SCIENCE THAMARASSERY
@@ -19,8 +19,8 @@ const AboutSection = () => {
             Our diverse curriculum and extracurricular activities promote
             holistic learning and personal growth. Join us on a journey of
             knowledge, discovery, and empowerment at the College of Applied
-            Science, Thamarassery.{" "}
-          </p>{" "}
+            Science, Thamarassery.
+          </p>
           <p className="text-xs mt-4">
             With a rich history of academic excellence, the College of Applied
             Science, Thamarassery has a strong reputation for delivering
@@ -34,9 +34,9 @@ const AboutSection = () => {
             collaborative activities.
           </p>
         </div>
-        <div className="col-span-2 px-3">
+        <div className="sm:col-span-2 px-3">
           <div
-            className="bg-center rounded-xl w-full h-full"
+            className="bg-center bg-cover rounded-xl w-full h-64 sm:h-full"
             style={styling}
           ></div>
         </div>
