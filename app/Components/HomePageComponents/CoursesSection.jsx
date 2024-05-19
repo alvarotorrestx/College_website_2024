@@ -37,7 +37,7 @@ const CoursesSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col px-3 bg-[#C0DFE7] text-black w-full items-center h-screen justify-center">
+    <div className="flex flex-col px-3 py-8 bg-[#C0DFE7] text-black w-full items-center min-h-screen justify-center">
       <div className=" flex flex-col items-center">
         <h1 className="font-semibold text-2xl">PROGRAMS WE OFFER</h1>
         <p className="text-center max-w-[600px] text-xs mt-5">
