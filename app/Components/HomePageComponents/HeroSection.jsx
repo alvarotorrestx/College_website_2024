@@ -74,10 +74,10 @@ const HeroSection = () => {
           College Of Applied Science Thamarassery: Empowering minds, shaping
           futures.
         </p>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-16 hover:scale-105">
           <a
             href=""
-            className="bg-blue-500 px-3 py-1 rounded font-bold lg:text-xl"
+            className="bg-[#2a9696] px-5 py-1 rounded font-medium lg:text-lg"
           >
             Enroll Now
           </a>

@@ -7,12 +7,12 @@ const AboutSection = () => {
   };
   return (
     <div className="px-10 py-20 w-full bg-[#ffffff] flex items-center justify-center">
-      <div className="flex flex-col sm:grid grid-cols-1 sm:grid-cols-5 gap-10">
-        <div className="col-span-3 px-2 text-black max-w-xl">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
+        <div className="lg:col-span-3 px-2 text-black max-w-xl">
           <h1 className="text-2xl font-semibold mb-8">
             WELCOME TO COLLEGE OF APPLIED SCIENCE THAMARASSERY
           </h1>
-          <p className="text-xs">
+          <p className="text-sm text-justify">
             Our institution offers a comprehensive education in arts and
             sciences, preparing students for successful careers with experienced
             faculty, we provide a nurturing environment for academic excellence.
@@ -21,7 +21,7 @@ const AboutSection = () => {
             knowledge, discovery, and empowerment at the College of Applied
             Science, Thamarassery.
           </p>
-          <p className="text-xs mt-4">
+          <p className="text-sm mt-4 text-justify">
             With a rich history of academic excellence, the College of Applied
             Science, Thamarassery has a strong reputation for delivering
             high-quality education. Our esteemed faculty members, who are
@@ -34,9 +34,9 @@ const AboutSection = () => {
             collaborative activities.
           </p>
         </div>
-        <div className="sm:col-span-2 px-3">
+        <div className="hidden lg:flex lg:col-span-2 px-3 items-center">
           <div
-            className="bg-center bg-cover rounded-xl w-full h-64 sm:h-full"
+            className="bg-center bg-cover rounded-xl w-full h-64 md:h-80"
             style={styling}
           ></div>
         </div>
