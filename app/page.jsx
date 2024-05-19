@@ -1,9 +1,16 @@
 import Image from "next/image";
+import HeroSection from "./Components/HomePageComponents/HeroSection";
+import AboutSection from "./Components/HomePageComponents/AboutSection";
+import CoursesSection from "./Components/HomePageComponents/CoursesSection";
+import BlankSection from "./Components/HomePageComponents/BlankSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      This is college web page
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <BlankSection />
+      <CoursesSection />
     </main>
   );
 }
