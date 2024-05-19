@@ -6,7 +6,7 @@ const AboutSection = () => {
     backgroundImage: `url('${heroImage}')`,
   };
   return (
-    <div className="px-10 py-20 w-full bg-[#C0DFE7] flex items-center justify-center">
+    <div className="px-10 py-20 w-full bg-[#ffffff] flex items-center justify-center">
       <div className="flex flex-col sm:grid grid-cols-1 sm:grid-cols-5 gap-10">
         <div className="col-span-3 px-2 text-black max-w-xl">
           <h1 className="text-2xl font-semibold mb-8">

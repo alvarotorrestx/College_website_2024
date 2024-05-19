@@ -21,16 +21,12 @@ const HeroSection = () => {
     >
       {/* Top Navigation bar */}
       <div className="sm:flex justify-center w-full px-32 py-5 sm:absolute hidden top-0">
-        <ul className="flex justify-between gap-4 w-full text-xs lg:text-sm xl:text-base font-medium items-start mt-2">
+        <ul className="flex justify-between gap-4 w-full max-w-[1000px] text-xs lg:text-sm xl:text-base font-medium items-start mt-2">
           <li>Home</li>
           <li>About</li>
-          <li>Courses</li>
-          <li>Gallery</li>
           <li className="-mt-3 min-w-16 ">
             <Image src={IHRD_Logo} width={100} alt="IHRD Logo" />
           </li>
-          <li>Home</li>
-          <li>About</li>
           <li>Courses</li>
           <li>Gallery</li>
         </ul>
