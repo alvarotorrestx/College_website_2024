@@ -7,7 +7,7 @@ const CourseCard = ({ name, details, img, link }) => {
     backgroundImage: `url('${image}')`,
   };
   return (
-    <div className="sm:w-80 min-w-80  w-96 rounded bg-white pb-4  flex flex-col items-center shadow-lg ">
+    <div className="sm:w-80 min-w-80  w-full rounded bg-white pb-4  flex flex-col items-center shadow-lg ">
       <div
         className=" h-[210px] w-full bg-cover bg-center rounded-t "
         style={styling}
