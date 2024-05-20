@@ -5,15 +5,16 @@ import CoursesSection from "./Components/HomePageComponents/CoursesSection";
 import BlankSection from "./Components/HomePageComponents/BlankSection";
 import FacilitySection from "./Components/HomePage/facilitySection";
 import FooterSection from "./Components/HomePage/footerSection";
+import ContactSection from "./Components/HomePage/contactSection";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
       <AboutSection />
-      {/* <BlankSection /> */}
       <CoursesSection />
       <FacilitySection />
+      <ContactSection />
       <FooterSection />
     </main>
   );
