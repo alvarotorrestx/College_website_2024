@@ -1,5 +1,6 @@
 import React from "react";
 import CourseCard from "./CourseCard";
+import CourseSlider from "./CourseSlider";
 
 const CoursesSection = () => {
   const courses_details = [
@@ -37,18 +38,18 @@ const CoursesSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col px-3 py-8 bg-[#f3f3f3] text-black w-full items-center min-h-screen justify-center">
-      <div className=" flex flex-col items-center">
-        <h1 className="font-semibold text-2xl">PROGRAMS WE OFFER</h1>
-        <p className="text-center max-w-[600px] text-sm mt-5">
-          College of Applied Science, Thamarassery, is affiliated to the Calicut
-          University and was established in 2012 with regular courses in B.Sc
-          (Computer Science), B.Com with CA, BA English, BCA, BBA, MA English
-          and M.Com.
+    <div className="flex flex-col px-3 py-5 bg-[#E5F4FB] text-black w-full items-center min-h-screen justify-center">
+      <div className=" flex flex-col items-center px-7">
+        <p className="mb-2 text-xs">courses</p>
+        <h1 className="font-semibold text-3xl text-center">
+          Explore our course offerings
+        </h1>
+        <p className="text-center max-w-[600px] text-xs mt-2">
+          Discover a wide range of courses to suit your interests.
         </p>
       </div>
       <div className="flex flex-wrap justify-center mt-11 gap-7 w-full">
-        {courses_details.map((course, index) => (
+        {/* {courses_details.map((course, index) => (
           <CourseCard
             details={course.details}
             img={course.image}
@@ -56,7 +57,8 @@ const CoursesSection = () => {
             name={course.name}
             key={index}
           />
-        ))}
+        ))} */}
+        <CourseSlider />
       </div>
     </div>
   );
