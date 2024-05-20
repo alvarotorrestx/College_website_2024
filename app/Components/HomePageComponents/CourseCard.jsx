@@ -7,20 +7,30 @@ const CourseCard = ({ name, details, img, link }) => {
     backgroundImage: `url('${image}')`,
   };
   return (
-    <div className="w-72  rounded bg-white px-4 py-4 flex flex-col items-center shadow-xl border">
+    <div className="sm:w-80 min-w-80  w-96 rounded bg-white pb-4  flex flex-col items-center shadow-lg ">
       <div
-        className="border h-36 rounded w-full bg-cover bg-center"
+        className=" h-[210px] w-full bg-cover bg-center rounded-t "
         style={styling}
       >
         {" "}
       </div>
-      <div className="flex justify-center flex-col mt-2">
-        <h1 className="font-semibold text-center">{name}</h1>
-        <p className="text-xs mt-4 pr-4">{details}</p>
-      </div>
-      <div className="w-full flex flex-1 justify-start items-end mt-4">
-        <div className="text-sm  bg-slate-100  px-4 py-1 border shadow">
-          <Link href={link}> Learn more</Link>
+      <div className=" px-4 mt-4">
+        <div className="flex justify-between">
+          <p className="text-sm ">6 semester</p>
+          <p className="text-sm ">17,800 / semster</p>
+        </div>
+        <div className="">
+          <h3 className="text-xl font-semibold mt-3">{name}</h3>
+          <h3 className="text-base mt-2">
+            BCA is a computer application course
+          </h3>
+        </div>
+
+        <div className="mt-4 font-normal  ">
+          <Link href={link} className="">
+            {" "}
+            Learn more {">"}
+          </Link>
         </div>
       </div>
     </div>
