@@ -16,18 +16,16 @@ const CourseCard = ({ name, details, img, link }) => {
       </div>
       <div className=" px-4 mt-4">
         <div className="flex justify-between">
-          <p className="text-sm ">6 semester</p>
-          <p className="text-sm ">17,800 / semster</p>
+          <p className="text-xs font-medium ">6 semester</p>
+          <p className="text-xs font-medium">17,800 / semster</p>
         </div>
         <div className="">
-          <h3 className="text-xl font-semibold mt-3">{name}</h3>
-          <h3 className="text-base mt-2">
-            BCA is a computer application course
-          </h3>
+          <h3 className="text-lg font-semibold mt-3">{name}</h3>
+          <h3 className="text-[12px] mt-5">{details}</h3>
         </div>
 
-        <div className="mt-4 font-normal  ">
-          <Link href={link} className="">
+        <div className="mt-5 font-normal  ">
+          <Link href={link} className="text-sm hover:font-semibold">
             {" "}
             Learn more {">"}
           </Link>

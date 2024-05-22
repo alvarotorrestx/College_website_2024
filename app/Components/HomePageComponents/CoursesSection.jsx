@@ -41,10 +41,12 @@ const CoursesSection = () => {
     <div className="flex flex-col pt-14 px-6 bg-[#2a96964d] text-black w-full items-center justify-center">
       <div className=" flex flex-col items-center px-7">
         {/* <p className="mb-2 text-xs">courses</p> */}
-        <h1 className="font-semibold text-3xl text-center">
+        <h1 className="font-semibold text-3xl text-center" data-aos="fade-in"
+          data-aos-duration="1000">
           Explore our course offerings
         </h1>
-        <p className="text-center max-w-[600px] text-xs mt-4">
+        <p className="text-center max-w-[600px] text-xs mt-4" data-aos="fade-in"
+          data-aos-duration="1000">
           Discover a wide range of courses to suit your interests.
         </p>
       </div>
