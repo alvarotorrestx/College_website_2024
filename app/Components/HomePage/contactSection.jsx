@@ -3,30 +3,36 @@ import React from "react";
 
 function ContactSection() {
   return (
-    <main className="p-10 min-h-screen">
+    <main className="bg-[#E5F4FB] p-10 pb-24">
       <div className="max-w-5xl grid grid-cols-1 lg:grid-cols-2 mx-auto gap-10">
         <div>
-          <p className="font-semibold text-xs mb-2">connect</p>
+          {/* <p className="font-semibold text-xs mb-2">connect</p> */}
           <h3 className="text-2xl font-semibold mb-3">Contact Information</h3>
           <p className="text-sm">
             Have a question or need assistance? Reach out to us.
           </p>
           <div className="mt-16 flex flex-col gap-10">
             <div className="flex flex-col items-center lg:block">
-              <Image src="email.svg" width={30} height={30} />
-              <p className="font-semibold mb-2">Email</p>
+              <div className="flex flex-row justify-start items-center">
+                <Image src="email.svg" width={30} height={30} />
+                <p className="font-semibold ml-[.15em]">Email</p>
+              </div>
               <p className="text-sm">Send us an email</p>
               <p className="text-sm">castmsy@gmail.com</p>
             </div>
             <div className="flex flex-col items-center lg:block">
-              <Image src="phone.svg" width={30} height={30} />
-              <p className="font-semibold mb-2">Phone</p>
+              <div className="flex flex-row justify-start items-center">
+                <Image src="phone.svg" width={30} height={30} />
+                <p className="font-semibold ml-[.15em]">Phone</p>
+              </div>
               <p className="text-sm">Give use a call</p>
               <p className="text-sm">+91 987654321</p>
             </div>
             <div className="flex flex-col items-center lg:block">
-              <Image src="location.svg" width={30} height={30} />
-              <p className="font-semibold mb-2">Location</p>
+              <div className="flex flex-row justify-start items-center">
+                <Image src="location.svg" width={30} height={30} />
+                <p className="font-semibold ml-[.15em]">Location</p>
+              </div>
               <p className="text-sm">Thamarassery, Kozhikode, Kerala.</p>
               <p className="text-sm">Get Direction {">"}</p>
             </div>

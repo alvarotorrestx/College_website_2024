@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function FacilitySection() {
   return (
-    <div className="w-full bg-[#C0DFE7] p-10">
+    <div className="w-full bg-[#2a96964d] p-10">
       <div className="mx-auto max-w-[1000px]">
         <h3 className="text-xl font-semibold mb-4">Our Facility</h3>
         <div className="flex justify-between flex-wrap gap-10">

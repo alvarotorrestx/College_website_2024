@@ -1,6 +1,6 @@
 export default function FooterSection() {
   return (
-    <div className="px-10 pt-10 pb-5 bg-[#004960]">
+    <div className="px-10 py-10 pb-5 bg-[#004960]">
       <div className="grid grid-cols-1 gap-10 lg:gap-5 lg:grid-cols-6 footer text-white max-w-5xl mx-auto">
         <div className="col-span-2">
           <h3 className="text-xl font-semibold mb-4">
@@ -11,7 +11,7 @@ export default function FooterSection() {
         <div className="col-span-4 grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <ul>Our Campus</ul>
-            <li>academics</li>
+            <li>Academics</li>
           </div>
           <div>
             <ul>Our Courses</ul>
@@ -30,7 +30,7 @@ export default function FooterSection() {
           </div>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 py-2">
         <p className="text-center text-sm font-light text-white">
           Copyright Genisys
         </p>

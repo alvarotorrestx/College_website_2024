@@ -8,10 +8,10 @@ import image4 from "../../../assets/4.jpeg";
 
 export default function ImageGallery() {
   return (
-    <div className="flex justify-center bg-[#B4DFF3] min-h-screen w-full">
+    <div className="flex justify-center pt-7 bg-[#2a96964d] w-full">
       <div className="max-w-5xl px-4 py-9">
-        <h1 className="text-2xl font-semibold text-center">Explore Campus</h1>
-        <p className="text-center text-xs mt-6">
+        <h1 className="text-3xl font-semibold text-center">Explore Campus</h1>
+        <p className="text-center text-xs mt-4">
           Discover the vibrant campus life through our image gallery
         </p>
         <div className="flex flex-wrap justify-center mt-10 gap-4">

@@ -12,7 +12,7 @@ function QuestionCard({ question, answer }) {
 
 function QuestionSection() {
   return (
-    <main className="py-24 bg-[#E5F4FB] px-10">
+    <main className="pt-24 pb-16 bg-[#E5F4FB] px-10">
       <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
           <h3 className="font-semibold text-3xl mb-4 text-center lg:text-start">

@@ -8,6 +8,7 @@ const HeroSection = () => {
   const heroImage = "/Hero.svg";
   const styling = {
     backgroundImage: `url('${heroImage}')`,
+    backgroundAttachment: 'fixed'
   };
 
   const toggleMenu = () => {
@@ -21,14 +22,30 @@ const HeroSection = () => {
     >
       {/* Top Navigation bar */}
       <div className="sm:flex justify-center w-full px-32 py-5 sm:absolute hidden top-0 ">
-        <ul className="flex justify-between gap-4 w-full max-w-[1000px] text-xs lg:text-sm xl:text-base font-medium items-start mt-2">
-          <li>Home</li>
-          <li>About</li>
-          <li className="-mt-3 min-w-16 ml-4 ">
-            <Image src={IHRD_Logo} width={100} alt="IHRD Logo" />
+        <ul className="flex justify-between gap-4 w-full max-w-[1000px] text-xs lg:text-sm xl:text-base font-medium items-center mt-2">
+          <li>
+            <a href="#home" className="p-2 rounded hover:bg-[#2a9696] transition duration-300 ease-in-out">
+              Home
+            </a>
           </li>
-          <li>Courses</li>
-          <li>Gallery</li>
+          <li>
+            <a href="#about" className="p-2 rounded hover:bg-[#2a9696] transition duration-300 ease-in-out">
+              About
+            </a>
+          </li>
+          <li className="-mt-3 min-w-16 ml-4 ">
+            <a href='/'><Image src={IHRD_Logo} width={100} alt="IHRD Logo" /></a>
+          </li>
+          <li>
+            <a href="#courses" className="p-2 rounded hover:bg-[#2a9696] transition duration-300 ease-in-out">
+              Courses
+            </a>
+          </li>
+          <li>
+            <a href="#gallery" className="p-2 rounded hover:bg-[#2a9696] transition duration-300 ease-in-out">
+              Gallery
+            </a>
+          </li>
         </ul>
       </div>
       {/* Mobile Navigation bar */}
@@ -47,20 +64,19 @@ const HeroSection = () => {
         </div>
       </div>
       <div
-        className={`${
-          isOpen ? "flex" : "hidden"
-        } sm:hidden flex-col items-center w-full bg-gray-800 text-white py-5 absolute top-16 z-10`}
+        className={`${isOpen ? "flex" : "hidden"
+          } sm:hidden flex-col items-center w-full bg-[#2a9696] text-white py-5 absolute top-16 z-10`}
       >
-        <a href="#home" className="py-2">
+        <a href="#home" className="p-6 w-full text-center">
           Home
         </a>
-        <a href="#about" className="py-2">
+        <a href="#about" className="p-6 w-full text-center">
           About
         </a>
-        <a href="#courses" className="py-2">
+        <a href="#courses" className="p-6 w-full text-center">
           Courses
         </a>
-        <a href="#gallery" className="py-2">
+        <a href="#gallery" className="p-6 w-full text-center">
           Gallery
         </a>
       </div>
@@ -70,14 +86,17 @@ const HeroSection = () => {
         <h1 className="text-center sm:text-4xl xl:text-5xl text-2xl font-semibold">
           COLLEGE OF APPLIED SCIENCE THAMARASSERY
         </h1>
-        <p className="text-center font-medium text-[8px] sm:text-sm xl:text-base mt-6">
+        {/* <p className="text-center font-medium text-[8px] sm:text-sm xl:text-base mt-6">
           College Of Applied Science Thamarassery: Empowering minds, shaping
           futures.
+        </p> */}
+        <p className="text-center font-medium text-[8px] sm:text-sm xl:text-base mt-6">
+          Empowering minds & shaping futures.
         </p>
-        <div className="flex justify-center mt-16 hover:scale-105">
+        <div className="flex justify-center mt-16">
           <a
-            href=""
-            className="bg-[#2a9696] px-5 py-1 rounded font-medium lg:text-lg"
+            href="#"
+            className="bg-[#2a9696] p-3.5 hover:scale-105 rounded font-medium lg:text-lg"
           >
             Enroll Now
           </a>

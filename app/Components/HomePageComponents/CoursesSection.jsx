@@ -38,13 +38,13 @@ const CoursesSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col px-5 py-5 bg-[#E5F4FB] text-black w-full items-center min-h-screen justify-center">
+    <div className="flex flex-col pt-14 px-6 bg-[#2a96964d] text-black w-full items-center justify-center">
       <div className=" flex flex-col items-center px-7">
-        <p className="mb-2 text-xs">courses</p>
+        {/* <p className="mb-2 text-xs">courses</p> */}
         <h1 className="font-semibold text-3xl text-center">
           Explore our course offerings
         </h1>
-        <p className="text-center max-w-[600px] text-xs mt-2">
+        <p className="text-center max-w-[600px] text-xs mt-4">
           Discover a wide range of courses to suit your interests.
         </p>
       </div>
