@@ -21,14 +21,18 @@ const HeroSection = () => {
     >
       {/* Top Navigation bar */}
       <div className="sm:flex justify-center w-full px-32 py-5 sm:absolute hidden top-0 ">
-        <ul className="flex justify-between gap-4 w-full max-w-[1000px] text-xs lg:text-sm xl:text-base font-medium items-start mt-2">
-          <li>Home</li>
-          <li>About</li>
+        <ul
+          className="flex justify-between gap-4 w-full max-w-4xl text-xs lg:text-sm xl:text-base font-medium items-start mt-2"
+          data-aos="fade-down"
+          data-aos-duration="800"
+        >
+          <li className="hover:underline">Home</li>
+          <li className="hover:underline">About</li>
           <li className="-mt-3 min-w-16 ml-4 ">
             <Image src={IHRD_Logo} width={100} alt="IHRD Logo" />
           </li>
-          <li>Courses</li>
-          <li>Gallery</li>
+          <li className="hover:underline">Courses</li>
+          <li className="hover:underline">Gallery</li>
         </ul>
       </div>
       {/* Mobile Navigation bar */}
@@ -67,17 +71,24 @@ const HeroSection = () => {
       {/* End */}
       {/* Hero Section text */}
       <div className="flex flex-col justify-center w-full px-15 sm:px-32 py-5">
-        <h1 className="text-center sm:text-4xl xl:text-5xl text-2xl font-semibold">
+        <h1
+          className="text-center sm:text-4xl xl:text-5xl text-2xl font-semibold"
+          data-aos="zoom-in"
+        >
           COLLEGE OF APPLIED SCIENCE THAMARASSERY
         </h1>
-        <p className="text-center font-medium text-[8px] sm:text-sm xl:text-base mt-6">
+        <p
+          className="text-center font-medium text-[8px] sm:text-sm xl:text-base mt-6"
+          data-aos="zoom-in"
+        >
           College Of Applied Science Thamarassery: Empowering minds, shaping
           futures.
         </p>
         <div className="flex justify-center mt-16 hover:scale-105">
           <a
             href=""
-            className="bg-[#2a9696] px-5 py-1 rounded font-medium lg:text-lg"
+            className="bg-[#308eaa] px-5 py-1 rounded font-medium lg:text-lg"
+            data-aos="zoom-in"
           >
             Enroll Now
           </a>

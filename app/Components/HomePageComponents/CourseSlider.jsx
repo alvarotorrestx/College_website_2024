@@ -23,7 +23,7 @@ const courses_details = [
     image:
       "https://rosemine.in/blog/source/Courses/BSC-computer-science-course-details.jpg",
     details:
-      "The Bachelor of Computer Science is a bachelor's degree for completion of an undergraduate program in computer science. In general, computer science degree programs emphasize the mathematical and theoretical foundations of computing.",
+      "This degree covers programming, algorithms, data structures, software development, and computer systems, preparing students for tech careers.",
     link: "#",
   },
   {
@@ -31,7 +31,7 @@ const courses_details = [
     image:
       "https://www.cpj.edu.in/wp-content/uploads/2022/11/bca-admission-2021.jpeg",
     details:
-      "BCA is a three-year degree program. This degree is for those who want to study computer science, software engineering, information technology, information security, and networking technology.",
+      "This degree focuses on software development, programming, databases, and computer applications, preparing students for IT and software careers.",
     link: "#",
   },
   {
@@ -39,7 +39,7 @@ const courses_details = [
     image:
       "https://blog.upes.ac.in/wp-content/uploads/2019/07/BBA-Course-Landing.jpg",
     details:
-      "BBA is a widely recognized undergraduate degree program in management. Students earn a Bachelor of Business Administration degree in order to acquire a comprehensive knowledge of business principles and management practices",
+      "This degree covers business management, marketing, finance, and entrepreneurship, preparing students for leadership roles in various industries.",
     link: "#",
   },
   {
@@ -47,7 +47,7 @@ const courses_details = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBYhGASo_vTZQdTScTybcCfgAwaTgKnVjBRQ-_13g-gg&s",
     details:
-      "BCom Computer Applications is a 3-year undergraduate course. It is designed to have an understanding in the field of commerce, especially in the discipline that involves the use of software technology application.",
+      "This degree focuses on accounting, finance, economics, and business law, equipping students for careers in commerce and finance.",
     link: "#",
   },
 ];
