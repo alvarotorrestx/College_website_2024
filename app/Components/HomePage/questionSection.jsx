@@ -14,7 +14,7 @@ function QuestionSection() {
   return (
     <main className="py-24 bg-[#E5F4FB] px-10">
       <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div>
+        <div data-aos="fade-right" data-aos-duration="1000">
           <h3 className="font-semibold text-3xl mb-4 text-center lg:text-start">
             Frequently Asked Questions
           </h3>
@@ -23,7 +23,7 @@ function QuestionSection() {
             have.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="1000">
           <QuestionCard
             question="What are the admission requirements?"
             answer="The admission requirements vary depending on the program. Please visit
